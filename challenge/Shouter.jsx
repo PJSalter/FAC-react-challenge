@@ -8,7 +8,7 @@ export default function Shouter() {
   }
   return (
     <>
-      <label htmlFor="theWords">{words}</label>
+      {/* <label htmlFor="theWords">{words}</label> */}
       <input value={words} onChange={update} name="theWords" />
       <output>{words.toUpperCase()}</output>
     </>

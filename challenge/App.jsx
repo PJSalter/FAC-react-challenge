@@ -1,4 +1,5 @@
 import Greeting from "../challenge/Greeting";
+import MouseTracker from "./MouseTracker";
 import Shouter from "./Shouter";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <main>
       <Greeting name="oli" />
       <Shouter />
+      <MouseTracker />
     </main>
   );
 }
